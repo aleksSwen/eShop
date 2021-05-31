@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgers</title>
+    <link rel="stylesheet" href="hamburger.css">
+</head>
+<body>
+    <div class="hamburgers">
+
+        <div class="hamburgers_size">
+            <div class="hamburgers_size_big">
+                <input type="radio" id="size" name="size" value="big">
+                <label for="big">Big (100 рублей, 40 калорий)</label>
+            </div>
+            <div class="hamburgers_size_small">
+                <input type="radio" id="size" name="size" value="small">
+                <label for="small">Small (50 рублей, 20 калорий)</label>
+            </div>
+        </div>
+
+        <div class="hamburgers_toppings">
+            <div>
+                <input type="checkbox" id="topping" name="topping" value="cheese">
+                <label for="cheese">Cheese (+10 рублей, +20 калорий)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="topping" name="topping" value="salad">
+                <label for="salad">Salad (+20 рублей, +5 калорий)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="topping" name="topping" value="potato">
+                <label for="potato"">Potato (+15 рублей, +10 калорий)</label>
+            </div>
+        </div>
+
+        <div class="hamburgers_feature">
+            <div>
+                <input type="checkbox" id="feature" name="feature" value="spice">
+                <label for="spice">Spice (+15 рублей, +0 калорий)</label>
+            </div>
+            <div>
+                <input type="checkbox" id="topping" name="topping" value="mayo">
+                <label for="mayo">Mayo (+20 рублей, +5 калорий)</label>
+            </div>
+        </div>
+
+        <div class="hamburgers_current">
+            <button class="count_button" id="count"><p class="hamburgers_current_total">Total currents:</p></button>
+            
+        </div>
+    </div>
+</body>
+</html>

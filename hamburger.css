@@ -1,0 +1,73 @@
+.hamburgers {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hamburgers_size {
+    border: 1px solid wheat;
+    width: auto;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.hamburgers_toppings {
+    border: 1px solid wheat;
+    width: auto;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.hamburgers_feature {
+    border: 1px solid wheat;
+    width: auto;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.hamburgers_current {
+    border: 1px solid wheat;
+    width: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.count_button {
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    background-color: aliceblue;
+    border: none;
+    color: grey;
+    font-size: 20px;
+    transition: 15ms;
+}
+
+.count_button:hover {
+    background-color: rgba(135, 206, 250, 0.445);
+}
+.count_button:active {
+    box-shadow: 0 0 0 3px lightskyblue;
+}
