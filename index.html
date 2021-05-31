@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>eShop</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <header class="header center">
+            <div class="header__left">
+                <a href="index.html" class="logo"> <img class="logo__img" src="images/logo.png" alt="logo">
+                    <p class="logo__name">BRAN</p>
+                    <p class="logo__name logo__name__red">D</p>
+                </a>
+                <form action="" class="header__form">
+                    <details class="header__form_browse">
+                        <summary class="header__form_name">Browse</summary>
+                    </details>
+                    <label>
+                        <input class="header__form_text" type="text" placeholder="Search for item">
+                    </label>
+                    <button class="header__button"><img src="images/search.png" alt="search"></button>
+                </form>
+            </div>
+            <div class="header__right">
+                <button class="button_cart" type="button">
+                    <img class="header__cart" src="images/cart.png" alt="cart" id="cart">
+                    <div class="header__cart_items"></div>
+                </button>
+                <a href="#" class="button">My Account</a> </div>
+            </div>
+        </header>
+        <div class="goods-list"></div>
+        <div class="total-sum"></div>
+    </main>
+</body>
+</html>
